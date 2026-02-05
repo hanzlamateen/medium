@@ -180,7 +180,7 @@ Qwen3-Coder-Next comes in several quantization levels:
 ollama pull qwen3-coder-next:q4_K_M
 ```
 
-![Terminal showing Ollama pulling the model](https://raw.githubusercontent.com/hanzlamateen/medium/master/1.%20build-local-claude-code-ollama-qwen3-complete/images/ollama_pull_terminal.png)
+
 
 **What happens next:**
 ```
@@ -583,7 +583,7 @@ chmod +x assistant.py
 python assistant.py
 ```
 
-![Qwen Assistant Interface](https://raw.githubusercontent.com/hanzlamateen/medium/master/1.%20build-local-claude-code-ollama-qwen3-complete/images/qwen_assistant_interface.png)
+
 
 ---
 
@@ -599,7 +599,7 @@ You: Create a complete FastAPI project structure with a Hello World endpoint, in
 
 **What the assistant does:**
 
-![FastAPI Code Generation Example](https://raw.githubusercontent.com/hanzlamateen/medium/master/1.%20build-local-claude-code-ollama-qwen3-complete/images/fastapi_code_gen.png)
+
 
 ```
 🔧 Using tool: write_file
@@ -700,7 +700,7 @@ You: Refactor this code to follow best practices and make it more maintainable.
 
 **What happens:**
 
-![Tool Calling Workflow](https://raw.githubusercontent.com/hanzlamateen/medium/master/1.%20build-local-claude-code-ollama-qwen3-complete/images/tool_calling_workflow.png)
+
 
 ```
 🔧 Using tool: read_file
@@ -892,7 +892,7 @@ This keeps the model loaded for 24 hours.
 
 ### Local (Ollama + Qwen3) vs Claude Code
 
-![Local vs Cloud Comparison](https://raw.githubusercontent.com/hanzlamateen/medium/master/1.%20build-local-claude-code-ollama-qwen3-complete/images/input_output_comparison.png)
+
 
 **Feature Comparison:**
 
