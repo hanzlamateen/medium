@@ -861,8 +861,6 @@ def compact_history(self, max_messages: int = 10):
 
 ### Model Selection Strategy
 
-**For different tasks:**
-
 **Recommended Models for Different Tasks:**
 
 *   **Quick code completions:**
