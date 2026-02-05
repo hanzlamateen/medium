@@ -1,6 +1,6 @@
 # Build Your Own Local "Claude Code" with Ollama and Qwen3-Coder-Next: The Complete Guide
 
-![Header Image Placeholder: Terminal with AI coding assistance]
+![Terminal with AI coding assistance](./images/header_terminal_ai.png)
 
 > **TL;DR:** Learn how to set up a powerful, privacy-first coding assistant that runs entirely on your machine using Ollama and Alibaba's new Qwen3-Coder-Next model. Get Claude Code-like capabilities without cloud dependency or monthly fees.
 
@@ -44,7 +44,7 @@ Released in early February 2026 by Alibaba's Qwen team, **Qwen3-Coder-Next** is 
 - No retrieval hacks needed
 
 **🔧 Tool-Calling Native**
-- Works out-of-the-box with coding agents like Claude Code, Cline, and OpenCode
+- Works out-of-the-box with coding agents like Claude Code, Cline and OpenCode
 - Designed to integrate with real IDE workflows
 - Supports complex multi-step reasoning and error recovery
 
@@ -55,7 +55,7 @@ Released in early February 2026 by Alibaba's Qwen team, **Qwen3-Coder-Next** is 
 By the end of this guide, you'll have a local coding assistant that can:
 
 - 📂 Understand your entire codebase contextually
-- 💻 Write, edit, and refactor code across multiple files
+- 💻 Write, edit and refactor code across multiple files
 - 🔍 Search and navigate complex projects
 - 🐛 Debug issues and suggest fixes
 - 🧪 Run tests and interpret results
@@ -167,6 +167,8 @@ Qwen3-Coder-Next comes in several quantization levels:
 ```bash
 ollama pull qwen3-coder-next:q4_K_M
 ```
+
+![Terminal showing Ollama pulling the model](./images/ollama_pull_terminal.png)
 
 **What happens next:**
 ```
@@ -569,6 +571,8 @@ chmod +x assistant.py
 python assistant.py
 ```
 
+![Qwen Assistant Interface](./images/qwen_assistant_interface.png)
+
 ---
 
 ## Part 4: Real-World Usage Examples
@@ -582,6 +586,9 @@ You: Create a complete FastAPI project structure with a Hello World endpoint, in
 ```
 
 **What the assistant does:**
+
+![FastAPI Code Generation Example](./images/fastapi_code_gen.png)
+
 ```
 🔧 Using tool: write_file
 🔧 Using tool: write_file
@@ -680,6 +687,9 @@ You: Refactor this code to follow best practices and make it more maintainable.
 ```
 
 **What happens:**
+
+![Tool Calling Workflow](./images/tool_calling_workflow.png)
+
 ```
 🔧 Using tool: read_file
 🔧 Using tool: write_file
@@ -823,6 +833,8 @@ Now just type `qwen` from any directory!
 
 ## Part 6: Performance Optimization
 
+![HTOP Resource Usage](./images/htop_resource_usage.png)
+
 ### Memory Management
 
 If you're running low on RAM:
@@ -861,6 +873,8 @@ This keeps the model loaded for 24 hours.
 ## Part 7: Comparison with Cloud Solutions
 
 ### Local (Ollama + Qwen3) vs Claude Code
+
+![Local vs Cloud Comparison](./images/input_output_comparison.png)
 
 | Feature | Local Setup | Claude Code |
 |---------|-------------|-------------|
@@ -1088,7 +1102,7 @@ Building your own local coding assistant isn't just about saving money or protec
 
 The setup might take an hour, but you'll have a powerful AI assistant that's truly yours. No subscriptions, no cloud dependency, no limits.
 
-**Ready to get started?** Clone the code, pull the model, and start coding with AI—locally.
+**Ready to get started?** Clone the code, pull the model and start coding with AI—locally.
 
 ---
 
@@ -1109,7 +1123,7 @@ You can find the complete code for this tutorial here:
 
 **Quick Start:**
 ```bash
-git clone https://your-repo/qwen-code-assistant
+git clone https://hanzlamateen/qwen-code-assistant
 cd qwen-code-assistant
 python -m venv venv
 source venv/bin/activate
@@ -1120,17 +1134,7 @@ python assistant.py
 
 ---
 
-## Screenshot Gallery
 
-> **Note for Medium:** Add screenshots here showing:
-> 1. Terminal running `ollama pull qwen3-coder-next`
-> 2. The assistant interface with the welcome panel
-> 3. Example of code generation in action
-> 4. Tool calling workflow visualization
-> 5. Side-by-side comparison of input/output
-> 6. System resource usage (htop/Activity Monitor)
-
----
 
 *Built with ❤️ by the open-source community*
 
