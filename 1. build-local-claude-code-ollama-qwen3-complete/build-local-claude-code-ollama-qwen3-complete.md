@@ -1,6 +1,6 @@
 # Build Your Own Local "Claude Code" with Ollama and Qwen3-Coder-Next: The Complete Guide
 
-![Terminal with AI coding assistance](./images/header_terminal_ai.png)
+![Terminal with AI coding assistance](https://raw.githubusercontent.com/hanzlamateen/medium/master/1.%20build-local-claude-code-ollama-qwen3-complete/images/header_terminal_ai.png)
 
 > **TL;DR:** Learn how to set up a powerful, privacy-first coding assistant that runs entirely on your machine using Ollama and Alibaba's new Qwen3-Coder-Next model. Get Claude Code-like capabilities without cloud dependency or monthly fees.
 
@@ -168,7 +168,7 @@ Qwen3-Coder-Next comes in several quantization levels:
 ollama pull qwen3-coder-next:q4_K_M
 ```
 
-![Terminal showing Ollama pulling the model](./images/ollama_pull_terminal.png)
+![Terminal showing Ollama pulling the model](https://raw.githubusercontent.com/hanzlamateen/medium/master/1.%20build-local-claude-code-ollama-qwen3-complete/images/ollama_pull_terminal.png)
 
 **What happens next:**
 ```
@@ -571,7 +571,7 @@ chmod +x assistant.py
 python assistant.py
 ```
 
-![Qwen Assistant Interface](./images/qwen_assistant_interface.png)
+![Qwen Assistant Interface](https://raw.githubusercontent.com/hanzlamateen/medium/master/1.%20build-local-claude-code-ollama-qwen3-complete/images/qwen_assistant_interface.png)
 
 ---
 
@@ -587,7 +587,7 @@ You: Create a complete FastAPI project structure with a Hello World endpoint, in
 
 **What the assistant does:**
 
-![FastAPI Code Generation Example](./images/fastapi_code_gen.png)
+![FastAPI Code Generation Example](https://raw.githubusercontent.com/hanzlamateen/medium/master/1.%20build-local-claude-code-ollama-qwen3-complete/images/fastapi_code_gen.png)
 
 ```
 🔧 Using tool: write_file
@@ -688,7 +688,7 @@ You: Refactor this code to follow best practices and make it more maintainable.
 
 **What happens:**
 
-![Tool Calling Workflow](./images/tool_calling_workflow.png)
+![Tool Calling Workflow](https://raw.githubusercontent.com/hanzlamateen/medium/master/1.%20build-local-claude-code-ollama-qwen3-complete/images/tool_calling_workflow.png)
 
 ```
 🔧 Using tool: read_file
@@ -833,7 +833,7 @@ Now just type `qwen` from any directory!
 
 ## Part 6: Performance Optimization
 
-![HTOP Resource Usage](./images/htop_resource_usage.png)
+![HTOP Resource Usage](https://raw.githubusercontent.com/hanzlamateen/medium/master/1.%20build-local-claude-code-ollama-qwen3-complete/images/htop_resource_usage.png)
 
 ### Memory Management
 
@@ -874,7 +874,7 @@ This keeps the model loaded for 24 hours.
 
 ### Local (Ollama + Qwen3) vs Claude Code
 
-![Local vs Cloud Comparison](./images/input_output_comparison.png)
+![Local vs Cloud Comparison](https://raw.githubusercontent.com/hanzlamateen/medium/master/1.%20build-local-claude-code-ollama-qwen3-complete/images/input_output_comparison.png)
 
 | Feature | Local Setup | Claude Code |
 |---------|-------------|-------------|
