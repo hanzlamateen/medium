@@ -154,11 +154,23 @@ You should see a JSON response listing available models (empty array if none ins
 
 Qwen3-Coder-Next comes in several quantization levels:
 
-| Variant | Size | RAM Needed | Quality | Speed |
-|---------|------|------------|---------|-------|
-| `qwen3-coder-next:q4_K_M` | ~48GB | 46GB | Good | Fastest |
-| `qwen3-coder-next:latest` | ~52GB | 52GB | Better | Fast |
-| `qwen3-coder-next:q8_0` | ~85GB | 85GB | Best | Slower |
+**Model Variants:**
+
+*   **`qwen3-coder-next:q4_K_M`** (Recommended)
+    *   **Size:** ~48GB
+    *   **RAM Needed:** 46GB
+    *   **Quality:** Good
+    *   **Speed:** Fastest
+*   **`qwen3-coder-next:latest`**
+    *   **Size:** ~52GB
+    *   **RAM Needed:** 52GB
+    *   **Quality:** Better
+    *   **Speed:** Fast
+*   **`qwen3-coder-next:q8_0`**
+    *   **Size:** ~85GB
+    *   **RAM Needed:** 85GB
+    *   **Quality:** Best
+    *   **Speed:** Slower
 
 **💡 Recommendation:** Start with `q4_K_M` for most users. It offers the best balance of performance and resource usage.
 
@@ -851,11 +863,17 @@ def compact_history(self, max_messages: int = 10):
 
 **For different tasks:**
 
-| Task | Recommended Model | Why |
-|------|-------------------|-----|
-| Quick code completions | qwen3-coder:7b | Faster, less memory |
-| Complex refactoring | qwen3-coder-next:q4_K_M | Better reasoning |
-| Maximum quality | qwen3-coder-next:q8_0 | Best performance |
+**Recommended Models for Different Tasks:**
+
+*   **Quick code completions:**
+    *   **Model:** `qwen3-coder:7b`
+    *   **Why:** Faster, less memory
+*   **Complex refactoring:**
+    *   **Model:** `qwen3-coder-next:q4_K_M`
+    *   **Why:** Better reasoning
+*   **Maximum quality:**
+    *   **Model:** `qwen3-coder-next:q8_0`
+    *   **Why:** Best performance
 
 ### Caching
 
@@ -876,16 +894,32 @@ This keeps the model loaded for 24 hours.
 
 ![Local vs Cloud Comparison](https://raw.githubusercontent.com/hanzlamateen/medium/master/1.%20build-local-claude-code-ollama-qwen3-complete/images/input_output_comparison.png)
 
-| Feature | Local Setup | Claude Code |
-|---------|-------------|-------------|
-| **Cost** | $0/month (hardware only) | $20-30/month |
-| **Privacy** | 100% local | Cloud-based |
-| **Speed** | Hardware dependent | Consistent |
-| **Context** | 256K tokens | ~200K tokens |
-| **Offline** | ✅ Yes | ❌ No |
-| **Setup** | Moderate | Easy |
-| **Updates** | Manual | Automatic |
-| **Quality** | Very good | Excellent |
+**Feature Comparison:**
+
+*   **Cost:**
+    *   **Local Setup:** $0/month (hardware only)
+    *   **Claude Code:** $20-30/month
+*   **Privacy:**
+    *   **Local Setup:** 100% local
+    *   **Claude Code:** Cloud-based
+*   **Speed:**
+    *   **Local Setup:** Hardware dependent
+    *   **Claude Code:** Consistent
+*   **Context:**
+    *   **Local Setup:** 256K tokens
+    *   **Claude Code:** ~200K tokens
+*   **Offline:**
+    *   **Local Setup:** ✅ Yes
+    *   **Claude Code:** ❌ No
+*   **Setup:**
+    *   **Local Setup:** Moderate
+    *   **Claude Code:** Easy
+*   **Updates:**
+    *   **Local Setup:** Manual
+    *   **Claude Code:** Automatic
+*   **Quality:**
+    *   **Local Setup:** Very good
+    *   **Claude Code:** Excellent
 
 **When to use local:**
 - Sensitive codebases
