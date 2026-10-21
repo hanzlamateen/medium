@@ -14,7 +14,9 @@ From that, my laptop wrote a script and drew a picture for each of the eight sce
 
 I didn't leave it entirely alone. I asked for the script again once, trimmed five of the eight narration lines by hand and had two of the pictures drawn again, one of them twice. Everything else in the film is what the app made. From pressing Generate to the finished file took 1 hour 46 minutes.
 
-[Watch the full film, with sound](https://github.com/echem-labs/local-cut-ai/releases/download/v0.1.0/one-raindrops-journey.mp4) (58 seconds, 9 MB).
+Watch the full film, with sound:
+
+https://youtu.be/hm0veJXzsj8
 
 The app is LocalCut AI. It aims for CapCut's ease of use with ComfyUI's power underneath. You type one line and get a finished cut. When the cut isn't right, you can change any step of it. I started building it in July. Its first release, 0.1.0, came out on 20 October 2026 for Windows and Linux, open source under Apache-2.0. The rest of this post walks you through your first video, with the screenshots from the session that made this film.
 
